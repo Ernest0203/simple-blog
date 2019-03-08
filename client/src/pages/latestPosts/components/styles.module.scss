@@ -1,0 +1,15 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .empty {
+    height: 100px;
+    display: flex;
+
+    div {
+      margin: auto;
+      font-size: 30px;
+    }
+  }
+}

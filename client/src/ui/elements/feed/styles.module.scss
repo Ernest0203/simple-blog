@@ -1,0 +1,26 @@
+.feed {
+  .title {
+    margin: 0;
+  }
+
+  .commentsList {
+    list-style: none;
+    padding: 0;
+    .commentsItem {
+      border-top: 1px solid #ccc;
+      padding: 10px;
+      h3 {
+        margin: 0;
+        font-weight: 400;
+        font-style: italic;
+        color: #ccc;
+      }
+    }
+  }
+
+  form {
+    textarea {
+      height: 100px;
+    }
+  }
+}
